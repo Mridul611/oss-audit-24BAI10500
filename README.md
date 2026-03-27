@@ -40,7 +40,7 @@ These are all free and open-source packages available via apt.
 
 | File | Description |
 |------|-------------|
-| OSS_Project.sh | System Identity Report — displays system info, kernel version, username, uptime, and installed Python version |
+| script1.sh | System Identity Report — displays system info, kernel version, username, uptime, and installed Python version |
 | script2.sh | Package Check — checks if Python3 is installed and displays version and description |
 | script3.sh | Disk and Permission Auditor — checks system directories for permissions and sizes |
 | script4.sh | Log File Analysis — searches system logs for Python related entries and counts occurrences |
@@ -50,8 +50,20 @@ These are all free and open-source packages available via apt.
 
 ## How to Run
 ```bash
-chmod +x OSS_Project.sh
-./OSS_Project.sh
+chmod +x script1.sh    //System Identity Report
+./script1.sh
+
+chmod +x script2.sh    //Package Check
+./script2.sh
+
+chmod +x script3.sh    //Disk and Permission Auditor
+./script3.sh
+
+chmod +x script4.sh    //Log File Analysis
+./script4.sh
+
+chmod +x script5.sh    //Manifesto Generator
+./script5.sh
 ```
 
 ---
