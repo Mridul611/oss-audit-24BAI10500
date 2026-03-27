@@ -22,6 +22,20 @@ All scripts were written and tested on Ubuntu 24.04 LTS using WSL2.
 
 ---
 
+## Dependencies Required
+
+Before running any script, make sure these are installed:
+```bash
+sudo apt update
+sudo apt install python3
+sudo apt install python3-pip
+sudo apt install lsb-release
+```
+
+These are all free and open-source packages available via apt.
+
+---
+
 ## Scripts
 
 | File | Description |
