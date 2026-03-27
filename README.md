@@ -1,2 +1,49 @@
 # oss-audit-24BAI10500
 Open Source Audit of Python - Shell scripts and written report for the OSS NGMC course at VIT. Topics: Licensing, Linux footprint, and FOSS ecosystem analysis.
+
+# OSS Audit — Python
+**Student Name:** Mridul Hari Tripathi  
+**Course:** Open Source Software  
+**Unit Coverage:** 1 – 5  
+**Software Audited:** Python  
+**License:** PSF License (Python Software Foundation)
+
+---
+
+## About
+
+This repository contains the shell scripts written as part of the 
+Open Source Audit capstone project for the Open Source Software 
+course at VIT. The project is a structured audit of Python as an 
+open-source software project, covering its origin, philosophy, 
+licensing, Linux footprint, and FOSS ecosystem.
+
+All scripts were written and tested on Ubuntu 24.04 LTS using WSL2.
+
+---
+
+## Scripts
+
+| File | Description |
+|------|-------------|
+| OSS_Project.sh | System Identity Report — displays system info, kernel version, username, uptime, and installed Python version |
+| script2.sh | Package Check — checks if Python3 is installed and displays version and description |
+| script3.sh | Disk and Permission Auditor — checks system directories for permissions and sizes |
+| script4.sh | Log File Analysis — searches system logs for Python related entries and counts occurrences |
+| script5.sh | Manifesto Generator — takes user input and generates a personalised open source manifesto |
+
+---
+
+## How to Run
+```bash
+chmod +x OSS_Project.sh
+./OSS_Project.sh
+```
+
+---
+
+## System
+
+- OS: Ubuntu 24.04 LTS via WSL2  
+- Shell: Bash  
+- Python: Python 3.12.3
